@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            /color: red;*/     /*color name/
+            /color: rgb(200, 100, 150);*/     /*rgb =red green blue/
+            /*color: hsl(27, 92%, 50%);*/       
+            color: #0000ff; /* 00 is minimum limit and ff is highst limit..fist 00 indicate red value is 0. second 00 indicate green value is  00. last ff indicate blue color is maximum */
+        }
+        div{
+            height: 900px;
+            width: 100%; /full width of the div/
+            background-color: solid  :read-only;
+           /* opacity: 0.5;*/
+           background-image:url(./download.jpg);
+           background-repeat: no-repeat;
+           /*background image repeatation adjusting.. (repeat,no repeat,repeat x,repeat y)*/
+           background-position:  center;
+           /* background image postion will adjust . if image repeation will not work.(left,right,bottom,top,center and mic of 2 of these eg.top center)*/
+           background-size: 400px 500px;
+           /background image size width is first 400px and second is height 500px/
+           background-attachment: fixed;
+           /if background image couldnt want to move use background attachmnt into "fixed" ,or want to move the image on the the div movment the will use "scroll" option/
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <div>
+        Anything
+    </div>
+</body>
+</html>
